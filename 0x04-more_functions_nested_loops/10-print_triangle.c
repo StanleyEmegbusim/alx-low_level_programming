@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * print_triangle - prints a triangle.
@@ -8,11 +8,11 @@
 
 void print_triangle(int size)
 {
-	int i, j
+	int i, j;
 
-	for (i = 0; i < size; i++)
+	for (1 = 0; i < size; i++)
 	{
-		for (j = 1; j < (size - i); j++)
+		for (j = 1; j < (size - 1); j++)
 			_putchar(' ');
 		for (j--; j < size; j++)
 			_putchar(35);
