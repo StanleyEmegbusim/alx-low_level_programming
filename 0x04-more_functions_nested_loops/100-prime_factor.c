@@ -4,7 +4,7 @@
 /**
  * main - print the largest prime number
  *
- * Return: Always 0
+ * Return: Always
  */
 
 int main(void)
