@@ -20,7 +20,7 @@ char *_strdup(char *str)
 	while (*str)
 	{
 		len++;
-		str++
+		str++;
 	}
 
 	str = start;
